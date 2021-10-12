@@ -1,0 +1,110 @@
+*{
+
+	margin: 0px;
+}
+
+body{
+
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: darkorange;
+    padding: 5px 25px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color:mediumblue ;
+    color: white;
+}
+
+
+
+
+main{
+    display: flex;
+    padding: 10px;
+}
+
+.mainimage{
+    width: 70%;
+    height: 400px;
+    background-image: url(../img/fondo1.jpg);
+    background-size: 100% 100%;
+}
+.mainAside{
+    width: 30%;
+    padding: 70px;
+    text-align: center;
+}
+.mainAside h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.mainAside p{
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.boton{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: red;
+    border: 2px solid black;
+    transition: all 1s ease;
+    position: relative;
+}
+.boton:hover{
+    background:rgba(248, 3, 3, 0);
+    color: red; 
+}
+.titulo{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 30px;
+}
+section{
+    display: flex;
+}
+article{
+    padding: 0 30px;
+    width: 30%;
+}
+article h2{
+    text-align: center;
+}
+.artimag{
+    text-align: center;
+}
+.artimag img{
+    width: 50%;
+    height: 0%;
+}
+article p{
+    text-align: justify;
+    padding: 25px;
+}
+
+div{
+
+	color: darkorange;
+}
+
+h2{
+
+	color: darkorange;
+}
+
+p{
+
+	color: darkorange;
+}
+
